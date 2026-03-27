@@ -209,7 +209,7 @@ export default function About() {
                 e.currentTarget.style.transform = "translateY(0)";
                 e.currentTarget.style.boxShadow = "none";
               }}
-              onClick={() => window.open("/resume.pdf", "_blank")}
+              onClick={() => window.open(`${import.meta.env.BASE_URL}resume_Ryan_Johnson_SD.pdf`, "_blank")}
             >
               <FiDownload size={20} style={{ marginRight: "0.5rem" }} />
               Download Resume
