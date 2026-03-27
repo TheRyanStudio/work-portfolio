@@ -15,9 +15,9 @@ export default function Projects() {
       longDescription:
         "Mediary puts you back in control of your media. Import EPUBs, PDFs, MP4s, and MOV files from anywhere. Features a stunning built-in reader with auto light/dark mode, bookmark support, and a powerful video player with native iOS controls and Picture-in-Picture support. Everything stored locally on your device.",
       images: [
-        "/images/mediary-home.png",
-        "/images/mediary-reader-split.png",
-        "/images/mediary-video-split.png",
+        `${import.meta.env.BASE_URL}images/mediary-home.png`,
+        `${import.meta.env.BASE_URL}images/mediary-reader-split.png`,
+        `${import.meta.env.BASE_URL}images/mediary-video-split.png`,
       ],
       tech: ["React Native", "Expo", "SQLite"],
       appStore: "",
@@ -30,7 +30,7 @@ export default function Projects() {
         "A full-stack library management system built with Java backend and web frontend, featuring authentication, book borrowing, returns, and hold queue management.",
       longDescription:
         "Comprehensive library system with authentication, user book borrowing and returning, hold queue management. Applied Test-Driven Development for backend logic, Behavior-Driven Development with Cucumber for feature scenarios, and Web Acceptance Testing with Cypress for end-to-end validation.",
-      images: ["/images/library-management-system.png"],
+      images: [`${import.meta.env.BASE_URL}images/library-management-system.png`],
       tech: [
         "Java",
         "Express.js",
@@ -49,7 +49,7 @@ export default function Projects() {
         "A secure password manager application with Qt-based GUI featuring symmetric encryption (Fernet), Argon2 hashing, and PBKDF2-HMAC key derivation.",
       longDescription:
         "Develop a secure password manager with a Qt-based GUI for managing and storing credentials. Implemented local storage using SQLite with Fernet symmetric encryption for sensitive data. Protected master passwords with Argon2 hashing and PBKDF2-HMAC key derivation for security.",
-      images: ["/images/password-manager.png"],
+      images: [`${import.meta.env.BASE_URL}images/password-manager.png`],
       tech: ["Python", "PySide6", "Qt", "SQLite", "Cryptography", "Fernet"],
       github: "https://github.com/TheRyanStudio/password-manager-application",
     },
@@ -60,7 +60,7 @@ export default function Projects() {
         "A C++ Qt application simulating a RaDoTech health monitoring device with MVC architecture and observer pattern implementation.",
       longDescription:
         "Created a realistic simulation of a RaDoTech health monitoring device to replicate measurement workflows and health result generation. Implemented MVC architecture and observer pattern to manage profiles, handle simulated device interactions, and display detailed health results.",
-      images: ["/images/health-monitor.png"],
+      images: [`${import.meta.env.BASE_URL}images/health-monitor.png`],
       tech: ["C++", "Qt", "MVC Architecture", "Observer Pattern"],
       github: "https://github.com/TheRyanStudio/RaDoTech_App",
     },

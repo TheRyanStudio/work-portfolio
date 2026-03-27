@@ -125,7 +125,7 @@ export default function About() {
         <div style={aboutContentStyle} className="about-content">
           <div style={aboutImageStyle} className="about-image">
             <img
-              src="/images/headshot.jpg"
+              src={`${import.meta.env.BASE_URL}images/headshot.jpg`}
               alt="Ryan Johnson"
               style={headshotStyle}
               className="about-headshot"
