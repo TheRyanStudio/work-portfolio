@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets",
+    "xabikos.JavaScriptSnippets",
+    "PKief.material-icon-theme",
+    "Equim.equation-snippets"
+  ]
+}
