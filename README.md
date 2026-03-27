@@ -2,17 +2,6 @@
 
 A modern, interactive portfolio website built with React and Vite. Features light/dark mode toggle, responsive design, and smooth animations.
 
-## Features
-
-- ✨ Modern and sleek design with interactive elements
-- 🌓 Light and dark mode toggle
-- 📱 Fully responsive design
-- 🎨 Smooth animations and transitions
-- 📄 Resume available for viewing/download
-- 🖼️ Project showcase with image galleries
-- ⚡ Built with Vite for fast performance
-- 🚀 GitHub Pages ready deployment
-
 ## Sections
 
 - **Hero** - Eye-catching landing section
