@@ -91,5 +91,3 @@ work-portfolio/
 ├── index.html
 └── README.md
 ```
--
-Made with ❤️ by Ryan Johnson
