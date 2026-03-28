@@ -19,7 +19,7 @@ export default function Projects() {
         `${import.meta.env.BASE_URL}images/mediary-reader-split.png`,
         `${import.meta.env.BASE_URL}images/mediary-video-split.png`,
       ],
-      tech: ["React Native", "Expo", "SQLite"],
+      tech: ["React Native", "Typescript", "Expo", "SQLite"],
       appStore: "",
       featured: true,
     },
