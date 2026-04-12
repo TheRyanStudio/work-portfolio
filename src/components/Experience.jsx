@@ -5,6 +5,19 @@ export default function Experience() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const experiences = [
+        {
+      role: "Mobile App Developer",
+      company: "Self Directed",
+      location: "Remote",
+      period: "Jan 2025 - Present",
+      descriptions: [
+        "Designed and shipped Mediary, an iOS app for managing personal libraries of books and movies; supports EPUB, PDF, MP4, and MOV with a built-in reader, page tracking, and native video playback. Built with React Native, TypeScript, Expo, and SQLite; acquired active monthly users with zero marketing spend.",
+        "Currently developing Worth It?, an iOS app focused on helping users reduce impulse spending habits.",
+        "Integrated Sentry for production error monitoring and RevenueCat for in-app purchases across both apps, gaining experience with real-world deployment and monetization.",
+        "Took both apps from concept to launch, including market research, keyword analysis, Figma mockups, and full end-to-end implementation; leveraged LLMs to accelerate development and debugging."
+      ],
+      tech: ["Typescript", "React Native", "Expo", "Figma"],
+    },
     {
       role: "Software Developer Intern",
       company: "KiM GmbH",
@@ -16,17 +29,6 @@ export default function Experience() {
         "Created UI features for the CADClick 3D visualization tool using JavaScript, CSS, and HTML to display different models together, anchored, and with interchangeable profiles",
       ],
       tech: ["Postman", "REST APIs", "JavaScript", "CSS", "HTML", "CAD"],
-    },
-    {
-      role: "Lead Bartender",
-      company: "Algonquin Resort",
-      location: "New Brunswick",
-      period: "May - August 2023",
-      descriptions: [
-        "Resolved customer requests and issues in a high-pressure environment, maintaining service quality during peak periods",
-        "Managed inventory tracking and documentation for 50+ products, ensuring accurate stock levels",
-      ],
-      tech: ["Customer Service", "Inventory Management", "Leadership"],
     },
     {
       role: "Server",
