@@ -20,7 +20,7 @@ export default function Projects() {
         `${import.meta.env.BASE_URL}images/mediary-video-split.png`,
       ],
       tech: ["React Native", "Typescript", "Expo", "SQLite"],
-      appStore: "",
+      appStore: "https://apps.apple.com/us/app/mediary/id6759798206",
       featured: true,
     },
     {
